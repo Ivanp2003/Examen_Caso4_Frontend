@@ -199,10 +199,16 @@ body {
   backdrop-filter: blur(10px);
 }
 
+/* Scroll horizontal específico para tabla de técnicos */
+.table-container {
+  overflow-x: auto;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
   background: transparent;
+  min-width: 800px; /* Asegura que la tabla tenga un ancho mínimo para scroll */
 }
 
 thead {
